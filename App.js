@@ -5,7 +5,7 @@ import {AuthStackNavigator} from './src/Navigator/StackNavigator';
 import About from './src/Screens/About';
 
 const App = () => {
-    const isSignIn = false;
+    const isSignIn = true;
     return (
         <NavigationContainer>
             {

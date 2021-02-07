@@ -42,6 +42,7 @@ const SignIn = ({navigation}) => {
             <View style={styles.rootContainer}>
 
              <ScrollView contentContainerStyle={{flexGrow: 1}}>
+
                 <Text //welcome text
                     style={{
                         fontSize: 42,
@@ -50,6 +51,7 @@ const SignIn = ({navigation}) => {
                         marginTop: hp('15%'),
                         marginLeft: wp('6'),
                     }}>Welcome</Text>
+
 
                 <Text //signIn to continue text
                     style={{
